@@ -40,7 +40,7 @@ Com o banco de dados criado e o MySQL iniciado, é necessário executar o seguin
 
 Isso fará com que o servidor node inicie-se, preparando para receber solicitações HTTP do formulário.
 
-Feito isso, basta abrir o **index.hmtl** em uma navegador, inserir informações nele e pressionar o botão de enviar. Caso todas as etapas tenham sido realizadas corretamente, será exibida a mensagem "registro criado com sucesso", e o banco de dados terá um novo registro com as informações inseridas.
+Feito isso, basta abrir o **index.html** em uma navegador, inserir informações nele e pressionar o botão de enviar. Caso todas as etapas tenham sido realizadas corretamente, será exibida a mensagem "registro criado com sucesso", e o banco de dados terá um novo registro com as informações inseridas.
 
 
 
