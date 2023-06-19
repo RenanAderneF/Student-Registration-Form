@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="db.js"></script>
+    <script src="server.js"></script>
+    <title> Formulário de registro de alunos </title>
+</head>
+<body>
+    
+    <h1> Formulário de registro de alunos </h1>
+
+    <form method="POST" action = 'http://localhost:3000/'>
+
+        <div class="entrada">
+            
+            <label for="nome"> Nome do Aluno: </label>
+            <input type="text" id="nome" name="nome">
+        
+        </div>
+
+        <div class="entrada">
+            
+            <label for="telefone"> Telefone: </label>
+            <input type="tel" id="telefone" name="telefone" maxlength="11">
+
+        </div>
+        
+        <div class="entrada">
+            
+            <label for="endereco"> Endereço: </label>
+            <input type="text" id="endereco" name="endereco">
+
+        </div>
+
+        <div class="entrada">
+            
+            <label for="matricula"> Matrícula: </label>
+            <input type="text" id="matricula" name="matricula" maxlength="12" >
+            
+        </div>
+
+        
+
+        <div class="entrada">
+
+            <span>Formação:</span>
+            
+            <select id="formacao" name="formacao">
+                <option disabled hidden selected> Selecione o tipo de curso</option>
+                <option value="Graduação"> Graduação </option>
+                <option value="Pós-Graduação"> Pós-Graduação </option>
+                <option value="MBA"> MBA </option>
+            </select>
+
+        </div>
+
+        <div class="entrada">
+            
+            <span> Curso em realização: </span>
+
+            <select id="curso" name="curso">
+                <option disabled hidden selected > Selecione o curso </option>
+                <option value="Ciência da Computação"> Ciência da Computação </option>
+                <option value="Direito"> Direito </option>
+                <option value="Nutrição"> Nutrição </option>
+            
+                <option value="Odontologia"> Odontologia </option>
+            </select>
+
+        </div>
+
+        <div class="entrada">
+
+            <span> Tipo de ensino: </span>
+
+            <select id="tipoEnsino" name="tipoEnsino">
+                <option disable hidden selected> Selecione sua metodologia </option>
+                <option value = "presencial"> presencial </option>
+                <option value = "EAD"> EAD (ensino à distância) </option>
+                <option value = "híbrido"> híbrido </option>
+            </select>
+
+        </div>
+        
+        <div class="entrada">
+
+            <span> Situação atual: </span>
+            
+            <select id="situacao" name="situacao">
+                <option disable hidden selected> Selecione sua situação</option>
+                <option> regular</option>
+                <option> transferido</option>
+            </select>
+
+        </div>
+        
+        <button type="submit"> Enviar </button>
+
+    </form>
+
+</body>
+</html>
