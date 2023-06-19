@@ -24,7 +24,7 @@ WAMP: https://www.wampserver.com/en/download-wampserver-64bits/#
 
 XAMPP: https://www.apachefriends.org/pt_br/download.html
 
-Após instalar o Node, em uma IDE ou diretamente no terminal, execute essas linhas de código para instalar as dependências Mysql2 e Express:
+Após instalar o Node, em uma IDE ou diretamente no terminal, execute o código à seguir para instalar as dependências Mysql2 e Express:
 
 `npm install`
 
