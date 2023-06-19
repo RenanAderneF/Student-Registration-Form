@@ -19,7 +19,8 @@ WAMP: https://www.wampserver.com/en/download-wampserver-64bits/#
 XAMPP: https://www.apachefriends.org/download.html
 
 After installing Node, in an IDE or directly in the terminal, execute the following code to install the Mysql2 and Express dependencies:
-npm install
+
+`npm install`
 
 If a terminal is used to install the packages, it is necessary to select the root directory of the project so that the package.json is read, and thus, the necessary dependencies are detected and installed.
 
