@@ -1,4 +1,4 @@
-# Formulário de Registro de Alunos #
+# Formulário de Registro de Alunos
 
 Registro de alunos criado com HTML/CSS, com as dependências Mysql2 e Express do Node.Js e MySQL .
 
