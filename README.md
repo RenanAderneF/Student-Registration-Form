@@ -3,7 +3,7 @@ Student Registration Form created with HTML/CSS, using the dependencies Mysql2 a
 
 This project was created with the purpose of integrating front-end technologies with a relational database, using HTML for input commands and Node.js for creating a web server and executing SQL queries. In this project, I learned to:
 
-* Use the package manager of Node.js.
+* Use the package manager of Node.js (npm).
 
 * Establish a connection to a database and a Node server using Mysql2.
 Handle HTTP requests and methods for form submissions.
